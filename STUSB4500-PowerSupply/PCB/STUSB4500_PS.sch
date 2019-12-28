@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -14996,6 +14996,119 @@ Source: tps62120.pdf (www.ti.com)</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="DD_SparkFun-Fuses">
+<description>&lt;h3&gt;SparkFun Fuses&lt;/h3&gt;
+In this library you'll find fuses, or fuse like components such as PTCs. Reference designator F.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="PTH">
+<description>Two 0.8 mm PTHs spaced 0.2 in apart for through hole parts.</description>
+<wire x1="-3.81" y1="1.524" x2="3.81" y2="1.524" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="1.524" x2="3.81" y2="-1.524" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-1.524" x2="-3.81" y2="-1.524" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="-1.524" x2="-3.81" y2="1.524" width="0.2032" layer="21"/>
+<pad name="P$1" x="-2.54" y="0" drill="0.8" diameter="1.8796"/>
+<pad name="P$2" x="2.54" y="0" drill="0.8" diameter="1.8796"/>
+<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="1206">
+<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PPTC">
+<description>A polymeric positive temperature coefficient device (PPTC, commonly known as a resettable fuse, polyfuse or polyswitch) is a passive electronic component used to protect against overcurrent faults in electronic circuits. - Wikipedia</description>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="5.08" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<text x="1.905" y="3.175" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="-2.794" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PPTC" prefix="F">
+<description>&lt;h3&gt;Resettable Fuse PPTC&lt;/h3&gt;
+&lt;p&gt;Resettable Fuse. Really a sort of resistor with a &lt;b&gt;p&lt;/b&gt;olymeric &lt;b&gt;p&lt;/b&gt;ositive &lt;b&gt;t&lt;/b&gt;emperature &lt;b&gt;c&lt;/b&gt;oefficient whose resistance increases dramatically with an increase in temperature. When heated by the power passing through the resistance rises causing the current to be limited, protecting the circuit. This is achieved by the transition of the polymer from a crystalline to an amorphous state where the conductive carbon separates breaking the conductive pathways found in the cool crystalline structure. When a PPTC cools back down it resumes conducting letting the circuit turn back on.&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12757"&gt;SparkFun RedBoard - Programmed with Arduino&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12640"&gt;Pro Micro - 5V/16MHz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10915"&gt;Arduino Pro 328 - 5V/16MHz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13720"&gt;MP3 Trigger&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="PPTC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PTH" package="PTH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08490"/>
+<attribute name="VALUE" value="72V/0.25A"/>
+</technology>
+</technologies>
+</device>
+<device name="_HALF-AMP" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08585"/>
+<attribute name="VALUE" value="6V/0.5A"/>
+</technology>
+</technologies>
+</device>
+<device name="_THREE-QUARTER-AMP" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-11150"/>
+<attribute name="VALUE" value="6V/0.75A"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15140,6 +15253,10 @@ Source: tps62120.pdf (www.ti.com)</description>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J9" library="DD_SparkFun-Connectors" deviceset="CONN_03" device="LOCK_NO_SILK"/>
+<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="F1" library="DD_SparkFun-Fuses" deviceset="PPTC" device="_HALF-AMP" value="6V/0.5A"/>
+<part name="+3V16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15844,6 +15961,20 @@ Source: tps62120.pdf (www.ti.com)</description>
 <instance part="GND5" gate="1" x="233.68" y="50.8" smashed="yes">
 <attribute name="VALUE" x="231.14" y="48.26" size="1.778" layer="96"/>
 </instance>
+<instance part="J9" gate="J$1" x="219.71" y="147.32" smashed="yes" rot="R180">
+<attribute name="VALUE" x="222.25" y="154.686" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="222.25" y="141.732" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
+<instance part="GND6" gate="1" x="209.55" y="139.7" smashed="yes">
+<attribute name="VALUE" x="207.01" y="137.16" size="1.778" layer="96"/>
+</instance>
+<instance part="F1" gate="G$1" x="53.34" y="152.4" smashed="yes">
+<attribute name="NAME" x="55.245" y="155.575" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="54.61" y="149.606" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="+3V16" gate="G$1" x="62.23" y="156.21" smashed="yes">
+<attribute name="VALUE" x="59.69" y="156.21" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15857,6 +15988,7 @@ Source: tps62120.pdf (www.ti.com)</description>
 <wire x1="213.36" y1="96.52" x2="226.06" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="104.14" x2="213.36" y2="96.52" width="0.1524" layer="91"/>
 <junction x="213.36" y="96.52"/>
+<junction x="226.06" y="96.52"/>
 </segment>
 </net>
 <net name="USB_D-" class="0">
@@ -15864,6 +15996,7 @@ Source: tps62120.pdf (www.ti.com)</description>
 <pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="99.06" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
 <label x="218.44" y="99.06" size="1.778" layer="95"/>
+<junction x="226.06" y="99.06"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -15947,6 +16080,12 @@ Source: tps62120.pdf (www.ti.com)</description>
 <pinref part="C21" gate="G$1" pin="1"/>
 <pinref part="C22" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J9" gate="J$1" pin="3"/>
+<wire x1="212.09" y1="144.78" x2="209.55" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="209.55" y1="144.78" x2="209.55" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -16037,6 +16176,12 @@ Source: tps62120.pdf (www.ti.com)</description>
 <pinref part="+3V15" gate="G$1" pin="+3V3"/>
 <wire x1="68.58" y1="83.82" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="F1" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="152.4" x2="62.23" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="+3V16" gate="G$1" pin="+3V3"/>
+<wire x1="62.23" y1="152.4" x2="62.23" y2="153.67" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SWDIO" class="0">
 <segment>
@@ -16048,6 +16193,7 @@ Source: tps62120.pdf (www.ti.com)</description>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="38.1" y1="119.38" x2="45.72" y2="119.38" width="0.1524" layer="91"/>
 <label x="40.64" y="119.38" size="1.778" layer="95"/>
+<junction x="45.72" y="119.38"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -16060,6 +16206,7 @@ Source: tps62120.pdf (www.ti.com)</description>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="38.1" y1="116.84" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
 <label x="40.64" y="116.84" size="1.778" layer="95"/>
+<junction x="45.72" y="116.84"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -16072,6 +16219,7 @@ Source: tps62120.pdf (www.ti.com)</description>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="114.3" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
 <label x="40.64" y="114.3" size="1.778" layer="95"/>
+<junction x="45.72" y="114.3"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -16141,6 +16289,7 @@ Source: tps62120.pdf (www.ti.com)</description>
 <label x="236.22" y="106.68" size="1.778" layer="95"/>
 <pinref part="R31" gate="G$1" pin="1"/>
 <pinref part="D2" gate="G$1" pin="A"/>
+<junction x="236.22" y="106.68"/>
 </segment>
 </net>
 <net name="OLED_RST*" class="0">
@@ -16148,11 +16297,13 @@ Source: tps62120.pdf (www.ti.com)</description>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="259.08" y1="106.68" x2="269.24" y2="106.68" width="0.1524" layer="91"/>
 <label x="261.62" y="106.68" size="1.778" layer="95"/>
+<junction x="269.24" y="106.68"/>
 </segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="PA4/ADC_IN4/DAC_OUT1"/>
 <wire x1="177.8" y1="116.84" x2="190.5" y2="116.84" width="0.1524" layer="91"/>
 <label x="182.88" y="116.84" size="1.778" layer="95"/>
+<junction x="190.5" y="116.84"/>
 </segment>
 </net>
 <net name="STM_USB_D-" class="0">
@@ -16214,6 +16365,7 @@ Source: tps62120.pdf (www.ti.com)</description>
 <wire x1="182.88" y1="68.58" x2="182.88" y2="66.04" width="0.1524" layer="91"/>
 <junction x="182.88" y="66.04"/>
 <label x="190.5" y="66.04" size="1.778" layer="95"/>
+<junction x="190.5" y="66.04"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -16225,6 +16377,7 @@ Source: tps62120.pdf (www.ti.com)</description>
 <wire x1="187.96" y1="68.58" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
 <junction x="187.96" y="63.5"/>
 <label x="190.5" y="63.5" size="1.778" layer="95"/>
+<junction x="190.5" y="63.5"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -16250,6 +16403,7 @@ Source: tps62120.pdf (www.ti.com)</description>
 <pinref part="U$8" gate="G$1" pin="PA3/ADC_IN3/COMP2_INP/USART2_RX"/>
 <wire x1="177.8" y1="119.38" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
 <label x="182.88" y="119.38" size="1.778" layer="95"/>
+<junction x="190.5" y="119.38"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="2.1"/>
@@ -16265,6 +16419,42 @@ Source: tps62120.pdf (www.ti.com)</description>
 <label x="45.72" y="45.72" size="1.778" layer="95"/>
 <wire x1="40.64" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
 <junction x="50.8" y="45.72"/>
+</segment>
+</net>
+<net name="UART_RX" class="0">
+<segment>
+<pinref part="J9" gate="J$1" pin="2"/>
+<wire x1="212.09" y1="147.32" x2="201.93" y2="147.32" width="0.1524" layer="91"/>
+<label x="201.93" y="147.32" size="1.778" layer="95"/>
+<junction x="201.93" y="147.32"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="PA1/ADC_IN1/COMP1_INP/USART4_RX"/>
+<wire x1="177.8" y1="124.46" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
+<label x="182.88" y="124.46" size="1.778" layer="95"/>
+<junction x="190.5" y="124.46"/>
+</segment>
+</net>
+<net name="UART_TX" class="0">
+<segment>
+<pinref part="J9" gate="J$1" pin="1"/>
+<wire x1="212.09" y1="149.86" x2="201.93" y2="149.86" width="0.1524" layer="91"/>
+<label x="201.93" y="149.86" size="1.778" layer="95"/>
+<junction x="201.93" y="149.86"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="PA2/ADC_IN2/WKUP4USART2_TX"/>
+<wire x1="177.8" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
+<label x="182.88" y="121.92" size="1.778" layer="95"/>
+<junction x="190.5" y="121.92"/>
+</segment>
+</net>
+<net name="VIN_2" class="0">
+<segment>
+<pinref part="F1" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
+<label x="40.64" y="153.67" size="1.778" layer="95"/>
+<junction x="40.64" y="152.4"/>
 </segment>
 </net>
 </nets>
