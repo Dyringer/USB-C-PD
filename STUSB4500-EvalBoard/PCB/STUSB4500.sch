@@ -10693,8 +10693,8 @@ Source: http://cds.linear.com/docs/Datasheet/5598f.pdf</description>
 <smd name="P$9" x="0" y="0.9" dx="1.47" dy="2.75" layer="1" rot="R90"/>
 </package>
 <package name="1610">
-<smd name="P$1" x="0.625" y="0" dx="0.8" dy="0.55" layer="1" rot="R90"/>
-<smd name="P$2" x="-0.625" y="0" dx="0.8" dy="0.55" layer="1" rot="R90"/>
+<smd name="P$1" x="0.595625" y="0" dx="0.8" dy="0.55" layer="1" rot="R90"/>
+<smd name="P$2" x="-0.595625" y="0" dx="0.8" dy="0.55" layer="1" rot="R90"/>
 </package>
 <package name="SOT323" urn="urn:adsk.eagle:footprint:8086243/1">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
