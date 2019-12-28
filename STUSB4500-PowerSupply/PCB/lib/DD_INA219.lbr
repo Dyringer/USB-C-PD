@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -73,7 +73,7 @@
 </layers>
 <library>
 <packages>
-<package name="DCN-R-PDSO-G8" urn="urn:adsk.eagle:footprint:7566837/1">
+<package name="DCN-R-PDSO-G8" urn="urn:adsk.eagle:footprint:7566837/1" locally_modified="yes">
 <description>&lt;b&gt;DCN (R-PDSO-G8) PLASTIC SMALL-OUTLINE PACKAGE (DIE DOWN)&lt;/b&gt;&lt;p&gt;
 Source: tps62120.pdf (www.ti.com)</description>
 <smd name="1" x="-0.975" y="-1.35" dx="0.45" dy="0.8" layer="1" stop="no" cream="no"/>
@@ -100,23 +100,11 @@ Source: tps62120.pdf (www.ti.com)</description>
 <rectangle x1="-0.525" y1="0.975" x2="-0.125" y2="1.725" layer="31" rot="R180"/>
 <rectangle x1="-1.225" y1="0.875" x2="-0.725" y2="1.825" layer="29" rot="R180"/>
 <rectangle x1="-1.175" y1="0.975" x2="-0.775" y2="1.725" layer="31" rot="R180"/>
-<rectangle x1="-1.15" y1="-1.5" x2="-0.8" y2="-0.825" layer="51"/>
 <rectangle x1="-1.4" y1="-0.75" x2="0" y2="0" layer="21"/>
-<rectangle x1="-0.5" y1="-1.5" x2="-0.15" y2="-0.825" layer="51"/>
-<rectangle x1="0.15" y1="-1.5" x2="0.5" y2="-0.825" layer="51"/>
-<rectangle x1="0.8" y1="-1.5" x2="1.15" y2="-0.825" layer="51"/>
 <rectangle x1="0.725" y1="0.875" x2="1.225" y2="1.825" layer="29" rot="R180"/>
 <rectangle x1="0.075" y1="0.875" x2="0.575" y2="1.825" layer="29" rot="R180"/>
 <rectangle x1="-0.575" y1="0.875" x2="-0.075" y2="1.825" layer="29" rot="R180"/>
 <rectangle x1="-1.225" y1="0.875" x2="-0.725" y2="1.825" layer="29" rot="R180"/>
-<rectangle x1="0.8" y1="0.825" x2="1.15" y2="1.5" layer="51" rot="R180"/>
-<rectangle x1="0.15" y1="0.825" x2="0.5" y2="1.5" layer="51" rot="R180"/>
-<rectangle x1="-0.5" y1="0.825" x2="-0.15" y2="1.5" layer="51" rot="R180"/>
-<rectangle x1="-1.15" y1="0.825" x2="-0.8" y2="1.5" layer="51" rot="R180"/>
-<wire x1="-1.4" y1="0.775" x2="1.4" y2="0.775" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.775" x2="1.4" y2="-0.775" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="-0.775" x2="-1.4" y2="-0.775" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="-0.775" x2="-1.4" y2="0.775" width="0.2032" layer="21"/>
 <text x="-1.6" y="-1.775" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="2.9" y="-1.75" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
