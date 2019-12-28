@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1315,7 +1315,7 @@ body 25 x 7 mm, grid 22 mm</description>
 <text x="-11.557" y="3.6576" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.032" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="R0402" urn="urn:adsk.eagle:footprint:23043/3">
+<package name="R0402" urn="urn:adsk.eagle:footprint:23043/3" locally_modified="yes">
 <description>&lt;b&gt;Chip RESISTOR 0402 EIA (1005 Metric)&lt;/b&gt;</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
@@ -1323,8 +1323,8 @@ body 25 x 7 mm, grid 22 mm</description>
 <wire x1="1" y1="0.483" x2="1" y2="-0.483" width="0.0508" layer="39"/>
 <wire x1="1" y1="-0.483" x2="-1" y2="-0.483" width="0.0508" layer="39"/>
 <wire x1="-1" y1="-0.483" x2="-1" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
-<smd name="2" x="0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<smd name="1" x="-0.55" y="0" dx="0.6" dy="0.7" layer="1"/>
+<smd name="2" x="0.55" y="0" dx="0.6" dy="0.7" layer="1"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
@@ -10314,7 +10314,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <vertex x="-2.2" y="-2.15"/>
 </polygon>
 </package>
-<package name="C0402" urn="urn:adsk.eagle:footprint:23121/1">
+<package name="C0402" urn="urn:adsk.eagle:footprint:23121/1" locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
@@ -10322,8 +10322,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
 <wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="1" x="-0.55" y="0" dx="0.6" dy="0.7" layer="1"/>
+<smd name="2" x="0.55" y="0" dx="0.6" dy="0.7" layer="1"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
