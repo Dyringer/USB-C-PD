@@ -11093,6 +11093,7 @@ Source: http://cds.linear.com/docs/Datasheet/5598f.pdf</description>
 <wire x1="107.95" y1="135.89" x2="107.95" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="121.92" x2="140.97" y2="135.89" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="135.89" x2="107.95" y2="135.89" width="0.1524" layer="91"/>
+<junction x="107.95" y="135.89"/>
 <junction x="140.97" y="135.89"/>
 </segment>
 <segment>
@@ -11192,7 +11193,6 @@ Source: http://cds.linear.com/docs/Datasheet/5598f.pdf</description>
 <wire x1="203.2" y1="132.08" x2="204.47" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="G"/>
 <wire x1="203.2" y1="132.08" x2="203.2" y2="137.922" width="0.1524" layer="91"/>
-<junction x="203.2" y="132.08"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -11443,19 +11443,23 @@ Source: http://cds.linear.com/docs/Datasheet/5598f.pdf</description>
 <net name="STUSB_PDO3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PDO3"/>
+<wire x1="168.91" y1="83.82" x2="186.69" y2="83.82" width="0.1524" layer="91"/>
 <label x="168.91" y="83.82" size="1.778" layer="95"/>
+<junction x="186.69" y="83.82"/>
 <pinref part="R36" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="90.17" x2="236.22" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="83.82" x2="168.91" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="83.82" x2="186.69" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STUSB_PDO2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PDO2"/>
+<wire x1="168.91" y1="88.9" x2="186.69" y2="88.9" width="0.1524" layer="91"/>
 <label x="168.91" y="88.9" size="1.778" layer="95"/>
+<junction x="186.69" y="88.9"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="90.17" x2="231.14" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="88.9" x2="168.91" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="88.9" x2="186.69" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STUSB_GPIO" class="0">
