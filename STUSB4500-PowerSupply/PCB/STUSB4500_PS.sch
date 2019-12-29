@@ -15348,6 +15348,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="USB_PD_VDD"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="DC-DC-5V0"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="DC-DC-3V3"/>
+<part name="R1" library="DD_rcl" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -15547,6 +15548,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="C1" gate="G$1" x="119.38" y="157.48" smashed="yes" rot="R180">
 <attribute name="NAME" x="117.856" y="157.099" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="117.856" y="162.179" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R1" gate="G$1" x="73.66" y="72.39" smashed="yes" rot="R90">
+<attribute name="NAME" x="74.93" y="73.8886" size="1.778" layer="95"/>
+<attribute name="VALUE" x="74.93" y="71.628" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -15761,6 +15766,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="R40" gate="G$1" pin="2"/>
 <pinref part="+3V15" gate="G$1" pin="+3V3"/>
 <wire x1="69.85" y1="77.47" x2="69.85" y2="80.01" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="69.85" y1="77.47" x2="73.66" y2="77.47" width="0.1524" layer="91"/>
+<junction x="69.85" y="77.47"/>
 </segment>
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
@@ -15804,8 +15812,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <net name="NRST" class="0">
 <segment>
 <pinref part="U$8" gate="G$1" pin="NRST(P7)"/>
-<wire x1="85.09" y1="67.31" x2="77.47" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="85.09" y1="67.31" x2="73.66" y2="67.31" width="0.1524" layer="91"/>
 <label x="77.47" y="67.31" size="1.778" layer="95"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
