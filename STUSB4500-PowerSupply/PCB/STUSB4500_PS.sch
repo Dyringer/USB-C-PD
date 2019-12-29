@@ -181,6 +181,12 @@
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="VCC" urn="urn:adsk.eagle:symbol:26928/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
@@ -200,6 +206,19 @@
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="+3V3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VCC" urn="urn:adsk.eagle:component:26957/1" prefix="P+" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="VCC" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -15088,6 +15107,83 @@ Source: http://cds.linear.com/docs/Datasheet/5598f.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="DD_TLV704">
+<packages>
+<package name="SOT23-5" urn="urn:adsk.eagle:footprint:15955175/1" locally_modified="yes">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
+SOT753 - Philips Semiconductors&lt;br&gt;
+Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_HCT1G66_3.pdf</description>
+<wire x1="0" y1="-1.29" x2="0" y2="-1.3" width="0.01" layer="21"/>
+<wire x1="1.42" y1="0.8" x2="1.42" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.42" y1="-0.8" x2="-1.42" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1.42" y1="-0.8" x2="-1.42" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-1.42" y1="0.8" x2="1.42" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="0.65" x2="1.28" y2="0.65" width="0.075" layer="51"/>
+<wire x1="1.28" y1="0.65" x2="1.28" y2="-0.66" width="0.075" layer="51"/>
+<wire x1="1.28" y1="-0.66" x2="-1.27" y2="-0.66" width="0.075" layer="51"/>
+<wire x1="-1.27" y1="-0.66" x2="-1.27" y2="0.65" width="0.075" layer="51"/>
+<rectangle x1="-1.11" y1="0.68" x2="-0.78" y2="1.43" layer="51"/>
+<rectangle x1="0.79" y1="0.67" x2="1.12" y2="1.42" layer="51"/>
+<rectangle x1="-1.11" y1="-1.42" x2="-0.78" y2="-0.67" layer="51"/>
+<rectangle x1="-0.16" y1="-1.42" x2="0.17" y2="-0.67" layer="51"/>
+<rectangle x1="0.79" y1="-1.42" x2="1.12" y2="-0.67" layer="51"/>
+<smd name="1" x="-0.95" y="-1.29" dx="0.69" dy="0.99" layer="1"/>
+<smd name="2" x="0" y="-1.29" dx="0.69" dy="0.99" layer="1"/>
+<smd name="3" x="0.95" y="-1.29" dx="0.69" dy="0.99" layer="1"/>
+<smd name="4" x="0.95" y="1.3" dx="0.69" dy="0.99" layer="1"/>
+<smd name="5" x="-0.95" y="1.3" dx="0.69" dy="0.99" layer="1"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOT23-5" urn="urn:adsk.eagle:package:15955184/2" type="model">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
+SOT753 - Philips Semiconductors&lt;br&gt;
+Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_HCT1G66_3.pdf</description>
+<packageinstances>
+<packageinstance name="SOT23-5"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="TLV704">
+<pin name="IN" x="-12.7" y="5.08" length="middle"/>
+<pin name="GND2" x="0" y="-10.16" length="middle" rot="R90"/>
+<pin name="GND1" x="-5.08" y="-10.16" length="middle" rot="R90"/>
+<pin name="GND3" x="5.08" y="-10.16" length="middle" rot="R90"/>
+<pin name="OUT" x="12.7" y="5.08" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TLV704_3V3">
+<gates>
+<gate name="G$1" symbol="TLV704" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOT23-5" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="GND1" pad="1"/>
+<connect gate="G$1" pin="GND2" pad="4"/>
+<connect gate="G$1" pin="GND3" pad="5"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15955184/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15242,6 +15338,13 @@ Source: http://cds.linear.com/docs/Datasheet/5598f.pdf</description>
 <part name="R48" library="DD_rcl" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="22k"/>
 <part name="J12" library="DD_SparkFun-Connectors" deviceset="CONN_02" device="1.27"/>
 <part name="J13" library="DD_SparkFun-Connectors" deviceset="CONN_03" device="1.27"/>
+<part name="U$1" library="DD_TLV704" deviceset="TLV704_3V3" device="SOT23-5" package3d_urn="urn:adsk.eagle:package:15955184/2"/>
+<part name="D5" library="DD_adafruit" deviceset="DIODE" device="SOD-323F" package3d_urn="urn:adsk.eagle:package:6240873/1" value="1N4148"/>
+<part name="+3V17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VDD"/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3V3_IN"/>
+<part name="C1" library="DD_rcl" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF 6.3V"/>
 </parts>
 <sheets>
 <sheet>
@@ -15415,11 +15518,32 @@ Source: http://cds.linear.com/docs/Datasheet/5598f.pdf</description>
 <attribute name="NAME" x="55.245" y="155.575" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="54.61" y="149.606" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="+3V16" gate="G$1" x="62.23" y="156.21" smashed="yes">
-<attribute name="VALUE" x="59.69" y="156.21" size="1.778" layer="96"/>
+<instance part="+3V16" gate="G$1" x="67.31" y="156.21" smashed="yes">
+<attribute name="VALUE" x="64.77" y="156.21" size="1.778" layer="96"/>
 </instance>
 <instance part="SW1" gate="G$1" x="34.29" y="45.72" smashed="yes" rot="R270">
 <attribute name="NAME" x="31.75" y="39.37" size="1.778" layer="95"/>
+</instance>
+<instance part="U$1" gate="G$1" x="105.41" y="157.48" smashed="yes"/>
+<instance part="D5" gate="G$1" x="123.19" y="162.56" smashed="yes">
+<attribute name="NAME" x="120.65" y="165.1" size="1.27" layer="95"/>
+<attribute name="VALUE" x="120.65" y="158.75" size="1.27" layer="96"/>
+</instance>
+<instance part="+3V17" gate="G$1" x="128.27" y="168.91" smashed="yes">
+<attribute name="VALUE" x="128.27" y="168.91" size="1.778" layer="96"/>
+</instance>
+<instance part="GND1" gate="1" x="105.41" y="142.24" smashed="yes">
+<attribute name="VALUE" x="102.87" y="139.7" size="1.778" layer="96"/>
+</instance>
+<instance part="P+1" gate="VCC" x="82.55" y="168.91" smashed="yes">
+<attribute name="VALUE" x="82.55" y="168.91" size="1.778" layer="96"/>
+</instance>
+<instance part="P+2" gate="VCC" x="40.64" y="156.21" smashed="yes">
+<attribute name="VALUE" x="40.64" y="156.21" size="1.778" layer="96"/>
+</instance>
+<instance part="C1" gate="G$1" x="119.38" y="157.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="117.856" y="157.099" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="117.856" y="162.179" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -15532,6 +15656,20 @@ Source: http://cds.linear.com/docs/Datasheet/5598f.pdf</description>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="209.55" y1="144.78" x2="209.55" y2="142.24" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND1"/>
+<pinref part="U$1" gate="G$1" pin="GND2"/>
+<wire x1="100.33" y1="147.32" x2="105.41" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND3"/>
+<wire x1="110.49" y1="147.32" x2="105.41" y2="147.32" width="0.1524" layer="91"/>
+<junction x="105.41" y="147.32"/>
+<wire x1="105.41" y1="147.32" x2="105.41" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="110.49" y1="147.32" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
+<junction x="110.49" y="147.32"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="147.32" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -15623,9 +15761,15 @@ Source: http://cds.linear.com/docs/Datasheet/5598f.pdf</description>
 </segment>
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="152.4" x2="62.23" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="152.4" x2="67.31" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="+3V16" gate="G$1" pin="+3V3"/>
-<wire x1="62.23" y1="152.4" x2="62.23" y2="153.67" width="0.1524" layer="91"/>
+<wire x1="67.31" y1="152.4" x2="67.31" y2="153.67" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D5" gate="G$1" pin="C"/>
+<wire x1="125.73" y1="162.56" x2="128.27" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="+3V17" gate="G$1" pin="+3V3"/>
+<wire x1="128.27" y1="162.56" x2="128.27" y2="166.37" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -15870,38 +16014,56 @@ Source: http://cds.linear.com/docs/Datasheet/5598f.pdf</description>
 </net>
 <net name="UART_RX" class="0">
 <segment>
-<pinref part="J9" gate="J$1" pin="2"/>
-<wire x1="212.09" y1="147.32" x2="201.93" y2="147.32" width="0.1524" layer="91"/>
-<label x="201.93" y="147.32" size="1.778" layer="95"/>
-<junction x="201.93" y="147.32"/>
-</segment>
-<segment>
 <pinref part="U$8" gate="G$1" pin="PA1/ADC_IN1/COMP1_INP/USART4_RX"/>
 <wire x1="177.8" y1="124.46" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
 <label x="182.88" y="124.46" size="1.778" layer="95"/>
 <junction x="190.5" y="124.46"/>
 </segment>
-</net>
-<net name="UART_TX" class="0">
 <segment>
 <pinref part="J9" gate="J$1" pin="1"/>
 <wire x1="212.09" y1="149.86" x2="201.93" y2="149.86" width="0.1524" layer="91"/>
 <label x="201.93" y="149.86" size="1.778" layer="95"/>
 <junction x="201.93" y="149.86"/>
 </segment>
+</net>
+<net name="UART_TX" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="PA2/ADC_IN2/WKUP4USART2_TX"/>
-<wire x1="177.8" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
-<label x="182.88" y="121.92" size="1.778" layer="95"/>
-<junction x="190.5" y="121.92"/>
+<pinref part="U$8" gate="G$1" pin="PA0/USART4_TX/WKUP1/ADC_IN0"/>
+<wire x1="177.8" y1="127" x2="190.5" y2="127" width="0.1524" layer="91"/>
+<junction x="190.5" y="127"/>
+<label x="182.88" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J9" gate="J$1" pin="2"/>
+<wire x1="212.09" y1="147.32" x2="201.93" y2="147.32" width="0.1524" layer="91"/>
+<label x="201.93" y="147.32" size="1.778" layer="95"/>
+<junction x="201.93" y="147.32"/>
 </segment>
 </net>
-<net name="VIN_2" class="0">
+<net name="N$2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="OUT"/>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="120.65" y1="162.56" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="162.56" x2="118.11" y2="162.56" width="0.1524" layer="91"/>
+<junction x="119.38" y="162.56"/>
+</segment>
+</net>
+<net name="VDD" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="IN"/>
+<wire x1="92.71" y1="162.56" x2="82.55" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="82.55" y1="166.37" x2="82.55" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3V3_IN" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
-<label x="40.64" y="153.67" size="1.778" layer="95"/>
-<junction x="40.64" y="152.4"/>
+<pinref part="P+2" gate="VCC" pin="VCC"/>
+<wire x1="40.64" y1="152.4" x2="40.64" y2="153.67" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
