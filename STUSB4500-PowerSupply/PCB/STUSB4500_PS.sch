@@ -15983,13 +15983,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <junction x="69.85" y="64.77"/>
 </segment>
 </net>
-<net name="STUSB_ALERT" class="0">
-<segment>
-<pinref part="U$8" gate="G$1" pin="PA10/USART1_RX/TIM1_CH3"/>
-<wire x1="179.07" y1="95.25" x2="191.77" y2="95.25" width="0.1524" layer="91"/>
-<label x="184.15" y="95.25" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="KEY" class="0">
 <segment>
 <pinref part="U$8" gate="G$1" pin="PA3/ADC_IN3/COMP2_INP/USART2_RX"/>
@@ -16067,6 +16060,34 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="48.26" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="40.64" y1="152.4" x2="40.64" y2="153.67" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="STUSB_ALERT" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="PA8/TIM1_CH1"/>
+<wire x1="179.07" y1="100.33" x2="191.77" y2="100.33" width="0.1524" layer="91"/>
+<label x="184.15" y="100.33" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="STUSB_RST" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="PA10/USART1_RX/TIM1_CH3"/>
+<wire x1="179.07" y1="95.25" x2="191.77" y2="95.25" width="0.1524" layer="91"/>
+<label x="184.15" y="95.25" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="STUSB_ATTACH" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="PA9/USART1_TX/TIM1_CH2"/>
+<wire x1="179.07" y1="97.79" x2="191.77" y2="97.79" width="0.1524" layer="91"/>
+<label x="184.15" y="97.79" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="STUSB_AB" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="PB15/WKUP7/RTC_REFIN/SPI2_MOSI"/>
+<wire x1="179.07" y1="36.83" x2="191.77" y2="36.83" width="0.1524" layer="91"/>
+<label x="182.88" y="36.83" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
