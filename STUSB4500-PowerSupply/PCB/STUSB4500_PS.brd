@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -2950,7 +2950,7 @@ design rules under a new name.
 <via x="5" y="30" extent="1-16" drill="0.3"/>
 <via x="5" y="20" extent="1-16" drill="0.3"/>
 <via x="7.5" y="20" extent="1-16" drill="0.3"/>
-<via x="7.5" y="32.103125" extent="1-16" drill="0.3"/>
+<via x="7.5" y="32.5" extent="1-16" drill="0.3"/>
 <via x="5" y="35" extent="1-16" drill="0.3"/>
 <via x="11.90625" y="29.36875" extent="1-16" drill="0.3"/>
 <via x="10.080625" y="27.543125" extent="1-16" drill="0.3"/>
@@ -2964,7 +2964,7 @@ design rules under a new name.
 <via x="5" y="27.5" extent="1-16" drill="0.3"/>
 <via x="14.35528125" y="24.526196875" extent="1-16" drill="0.3"/>
 <via x="14.309878125" y="23.01015625" extent="1-16" drill="0.3"/>
-<via x="22.433128125" y="27.128540625" extent="1-16" drill="0.3"/>
+<via x="22.5" y="27.5" extent="1-16" drill="0.3"/>
 <contactref element="R39" pad="1"/>
 <contactref element="R30" pad="1"/>
 <contactref element="LCD2" pad="7"/>
@@ -3076,7 +3076,7 @@ design rules under a new name.
 <via x="7.5" y="35" extent="1-16" drill="0.3"/>
 <via x="47.5" y="12.5" extent="1-16" drill="0.3"/>
 <via x="45" y="12.5" extent="1-16" drill="0.3"/>
-<via x="7.5" y="30.703125" extent="1-16" drill="0.3"/>
+<via x="7.5" y="30.5" extent="1-16" drill="0.3"/>
 <via x="16.8" y="33.303125" extent="1-16" drill="0.3"/>
 <via x="20.1" y="28.703125" extent="1-16" drill="0.3"/>
 <via x="10.9" y="20.503125" extent="1-16" drill="0.3"/>
