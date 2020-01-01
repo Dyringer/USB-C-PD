@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCAD" color="11" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCAD" color="11" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -1295,7 +1295,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.35" x2="0.1999" y2="0.35" layer="35"/>
 </package>
-<package name="R0603" urn="urn:adsk.eagle:footprint:23044/1">
+<package name="R0603" urn="urn:adsk.eagle:footprint:23044/1" locally_modified="yes">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
 <wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
@@ -1303,8 +1303,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
@@ -15186,7 +15186,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="L2" library="DD_rcl" deviceset="L-EU" device="PIS2816" package3d_urn="urn:adsk.eagle:package:23515/1" value="4.7uH"/>
 <part name="LCD2" library="DD_microbuilder" deviceset="DISP_OLED_UG-2832HSWEG02" device=""/>
 <part name="R30" library="DD_rcl" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="390K"/>
-<part name="R31" library="DD_rcl" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
+<part name="R31" library="DD_rcl" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="D2" library="DD_adafruit" deviceset="DIODE" device="SOD-323F" package3d_urn="urn:adsk.eagle:package:6240873/1" value="1N4148"/>
 <part name="C15" library="DD_rcl" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF 25V"/>
 <part name="C16" library="DD_rcl" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF 25V"/>
@@ -15281,6 +15281,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="R3" library="DD_rcl" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="C2" library="DD_rcl" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF 25V"/>
 <part name="C3" library="DD_rcl" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF 25V"/>
+<part name="C4" library="DD_rcl" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF 6.3V"/>
+<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15319,13 +15321,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="NAME" x="251.46" y="65.532" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="251.46" y="60.325" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="R31" gate="G$1" x="251.46" y="114.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="249.428" y="111.76" size="1.27" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="254.635" y="111.76" size="1.27" layer="96" font="vector" rot="R90"/>
+<instance part="R31" gate="G$1" x="251.46" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="249.428" y="121.92" size="1.27" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="254.635" y="121.92" size="1.27" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="D2" gate="G$1" x="256.54" y="106.68" smashed="yes">
-<attribute name="NAME" x="254" y="109.22" size="1.27" layer="95"/>
-<attribute name="VALUE" x="254" y="102.87" size="1.27" layer="96"/>
+<instance part="D2" gate="G$1" x="259.08" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="256.54" y="121.92" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="262.89" y="121.92" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="C15" gate="G$1" x="43.18" y="83.82" smashed="yes">
 <attribute name="NAME" x="37.084" y="84.201" size="1.778" layer="95"/>
@@ -15370,8 +15372,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="+3V11" gate="G$1" x="251.46" y="88.9" smashed="yes">
 <attribute name="VALUE" x="248.92" y="83.82" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V12" gate="G$1" x="251.46" y="124.46" smashed="yes">
-<attribute name="VALUE" x="248.92" y="119.38" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V12" gate="G$1" x="251.46" y="134.62" smashed="yes">
+<attribute name="VALUE" x="248.92" y="129.54" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R33" gate="G$1" x="209.55" y="39.37" smashed="yes" rot="MR270">
 <attribute name="NAME" x="218.44" y="35.3314" size="1.778" layer="95" rot="MR180"/>
@@ -15484,6 +15486,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="R1" gate="G$1" x="73.66" y="72.39" smashed="yes" rot="R90">
 <attribute name="NAME" x="74.93" y="73.8886" size="1.778" layer="95"/>
 <attribute name="VALUE" x="74.93" y="71.628" size="1.778" layer="96"/>
+</instance>
+<instance part="C4" gate="G$1" x="251.46" y="111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="255.524" y="113.411" size="1.778" layer="95"/>
+<attribute name="VALUE" x="255.524" y="110.871" size="1.778" layer="96"/>
+</instance>
+<instance part="GND8" gate="1" x="251.46" y="106.68" smashed="yes">
+<attribute name="VALUE" x="248.92" y="104.14" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -15610,6 +15619,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="147.32" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -15670,9 +15683,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="C22" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="251.46" y1="121.92" x2="251.46" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="132.08" x2="251.46" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="2"/>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="251.46" y1="129.54" x2="259.08" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="129.54" x2="259.08" y2="127" width="0.1524" layer="91"/>
+<junction x="251.46" y="129.54"/>
 </segment>
 <segment>
 <pinref part="R34" gate="G$1" pin="2"/>
@@ -15815,28 +15832,16 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="LCD2" gate="G$1" pin="RES#"/>
 </segment>
 <segment>
-<wire x1="254" y1="106.68" x2="251.46" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="106.68" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="109.22" x2="251.46" y2="106.68" width="0.1524" layer="91"/>
-<junction x="251.46" y="106.68"/>
-<label x="236.22" y="106.68" size="1.778" layer="95"/>
+<wire x1="259.08" y1="121.92" x2="259.08" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="116.84" x2="251.46" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="116.84" x2="236.22" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="119.38" x2="251.46" y2="116.84" width="0.1524" layer="91"/>
+<junction x="251.46" y="116.84"/>
+<label x="236.22" y="116.84" size="1.778" layer="95"/>
 <pinref part="R31" gate="G$1" pin="1"/>
 <pinref part="D2" gate="G$1" pin="A"/>
-<junction x="236.22" y="106.68"/>
-</segment>
-</net>
-<net name="OLED_RST*" class="0">
-<segment>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="259.08" y1="106.68" x2="269.24" y2="106.68" width="0.1524" layer="91"/>
-<label x="261.62" y="106.68" size="1.778" layer="95"/>
-<junction x="269.24" y="106.68"/>
-</segment>
-<segment>
-<pinref part="U$8" gate="G$1" pin="PA4/ADC_IN4/DAC_OUT1"/>
-<wire x1="179.07" y1="110.49" x2="191.77" y2="110.49" width="0.1524" layer="91"/>
-<label x="184.15" y="110.49" size="1.778" layer="95"/>
-<junction x="191.77" y="110.49"/>
+<junction x="236.22" y="116.84"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="STM_USB_D-" class="0">
