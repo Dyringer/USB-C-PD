@@ -4800,25 +4800,16 @@ Source: TJ-Serie Vishay.pdf</description>
 <text x="-5.08" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.08" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="POWER-CHOKE_WE-TPC" urn="urn:adsk.eagle:footprint:25524/1">
+<package name="POWER-CHOKE_WE-TPC" urn="urn:adsk.eagle:footprint:25524/1" locally_modified="yes">
 <description>&lt;b&gt;POWER-CHOKE WE-TPC&lt;/b&gt;&lt;p&gt;
 Würth Elektronik, Partnumber: 744053220&lt;br&gt;
 Source: WE-TPC 744053220.pdf</description>
-<wire x1="-2.8" y1="2.3" x2="-2.3" y2="2.8" width="0.2" layer="51" curve="-90"/>
-<wire x1="-2.3" y1="2.8" x2="2.3" y2="2.8" width="0.2" layer="51"/>
-<wire x1="2.3" y1="2.8" x2="2.8" y2="2.3" width="0.2" layer="51" curve="-90"/>
-<wire x1="2.8" y1="2.3" x2="2.8" y2="-2.3" width="0.2" layer="51"/>
-<wire x1="2.8" y1="-2.3" x2="2.3" y2="-2.8" width="0.2" layer="51" curve="-90"/>
-<wire x1="2.3" y1="-2.8" x2="-2.3" y2="-2.8" width="0.2" layer="51"/>
-<wire x1="-2.3" y1="-2.8" x2="-2.8" y2="-2.3" width="0.2" layer="51" curve="-90"/>
-<wire x1="-2.8" y1="-2.3" x2="-2.8" y2="2.3" width="0.2" layer="51"/>
-<wire x1="-2.8" y1="0.65" x2="-2.8" y2="-0.65" width="0.2" layer="21"/>
-<wire x1="-2" y1="0.65" x2="-2" y2="-0.65" width="0.2" layer="21" curve="36.008323"/>
-<wire x1="2.8" y1="-0.65" x2="2.8" y2="0.65" width="0.2" layer="21"/>
-<wire x1="2" y1="-0.65" x2="2" y2="0.65" width="0.2" layer="21" curve="36.008323"/>
-<circle x="0" y="0" radius="2.1" width="0.2" layer="51"/>
-<smd name="1" x="0" y="2.05" dx="6.3" dy="2.2" layer="1" roundness="25"/>
-<smd name="2" x="0" y="-2.05" dx="6.3" dy="2.2" layer="1" roundness="25" rot="R180"/>
+<wire x1="-1.9" y1="0.65" x2="-1.9" y2="-0.65" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="0.65" x2="-1.3" y2="-0.65" width="0.2" layer="21" curve="36.008323"/>
+<wire x1="1.9" y1="-0.65" x2="1.9" y2="0.65" width="0.2" layer="21"/>
+<wire x1="1.3" y1="-0.65" x2="1.3" y2="0.65" width="0.2" layer="21" curve="36.008323"/>
+<smd name="1" x="0" y="1.45" dx="4" dy="1.5" layer="1" roundness="25"/>
+<smd name="2" x="0" y="-1.45" dx="4" dy="1.5" layer="1" roundness="25" rot="R180"/>
 <text x="-3.5" y="3.5" size="1.778" layer="25">&gt;NAME</text>
 <text x="-3.5" y="-5.3" size="1.778" layer="27">&gt;VALUE</text>
 </package>
@@ -15171,7 +15162,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="C10" library="DD_rcl" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uF 6.3V"/>
 <part name="C11" library="DD_rcl" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF 25V"/>
 <part name="R22" library="DD_rcl" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="L1" library="DD_rcl" deviceset="L-EU" device="PIS2816" package3d_urn="urn:adsk.eagle:package:23515/1" value="5.6uH"/>
+<part name="L1" library="DD_rcl" deviceset="L-EU" device="WE-TPC" package3d_urn="urn:adsk.eagle:package:25966/1" value="5.6uH"/>
 <part name="U$12" library="DD_TPS56339" deviceset="TPS56339" device="SOT23-6" package3d_urn="urn:adsk.eagle:package:15662283/2"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R23" library="DD_rcl" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="30"/>
@@ -15183,7 +15174,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="C13" library="DD_rcl" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uF 6.3V"/>
 <part name="C14" library="DD_rcl" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF 25V"/>
 <part name="R27" library="DD_rcl" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="L2" library="DD_rcl" deviceset="L-EU" device="PIS2816" package3d_urn="urn:adsk.eagle:package:23515/1" value="4.7uH"/>
+<part name="L2" library="DD_rcl" deviceset="L-EU" device="WE-TPC" package3d_urn="urn:adsk.eagle:package:25966/1" value="4.7uH"/>
 <part name="LCD2" library="DD_microbuilder" deviceset="DISP_OLED_UG-2832HSWEG02" device=""/>
 <part name="R30" library="DD_rcl" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="390K"/>
 <part name="R31" library="DD_rcl" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
